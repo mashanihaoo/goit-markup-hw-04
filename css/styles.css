@@ -36,7 +36,7 @@ img {
 .container{
     margin: 0 auto;
     padding: 0 15px;
-    width: 1158px;
+    max-width: 1158px;
  }
 
 .container-header{
@@ -155,9 +155,25 @@ img {
 }
 
 
-.hero-section  {
-    background-color: #2E2F42;
+.hero-section {
+;
+}
+
+.hero-container{
     padding: 188px 0;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #2E2F42;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-title {
@@ -198,6 +214,7 @@ img {
 }
 
 /*benefits-section*/
+
 .visually-hidden{
     position: absolute;
     width: 1px;
@@ -209,6 +226,24 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.benefits-icons-container {
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 264px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.benefits-icons{
+    color: currentColor;
+  
+
 }
 
 .benefits-section{
@@ -224,6 +259,7 @@ img {
     width: calc((100% - 72px) / 4);
 
 }
+
 
 .benefits-list .benefit-name {
     color: #2E2F42;
@@ -292,6 +328,27 @@ img {
     text-align: center;
 } 
 
+.person-socials-container{
+    width: 232px;
+    margin-left: 16px;
+    display: flex;
+    gap: 24px;
+}
+
+.person-socials-round-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-icons{
+    fill: #F4F4FD;
+}
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -375,3 +432,29 @@ img {
     display: inline-block;
 }
 
+.footer-social-media-container{
+    width: 208px;
+    display: flex;
+}
+
+.footer-social-media-paragraph{
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #FFFFFF;;
+    max-width: 96px;
+}
+
+.footer-social-media-round-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #4D5AE5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-icons{
+
+}
