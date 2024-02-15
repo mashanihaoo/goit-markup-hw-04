@@ -486,6 +486,15 @@ background-color: #404BBF;
     padding: 100px 0;
 }
 
+.footer-container{
+    display: flex;
+    align-items: baseline
+}
+
+.img-p-footer-container{
+    margin-right: 120px;
+}
+    
 .footer-paragraph{
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -515,8 +524,17 @@ background-color: #404BBF;
     letter-spacing: 0,02em;
     color: #FFFFFF;;
     max-width: 96px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
 }
 
+.footer-socials-list{
+    display: flex;
+    gap: 16px;
+    width: 40px;
+    height: 40px;
+}
 .footer-social-media-round-container{
     width: 40px;
     height: 40px;
@@ -530,4 +548,19 @@ background-color: #404BBF;
 
 .footer-icons{
 
+}
+
+.footer-person-socials-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.footer-person-socials-link:hover,
+.footer-person-socials-link:focus
+{
+    background-color: #31d0aa
 }
