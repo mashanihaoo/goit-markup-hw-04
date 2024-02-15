@@ -514,6 +514,10 @@ background-color: #404BBF;
     display: inline-block;
 }
 
+.footer-logo-p-container{
+    margin-right: 120px;
+}
+
 .footer-social-media-container{
     width: 208px;
     display: flex;
@@ -521,7 +525,7 @@ background-color: #404BBF;
 
 .footer-social-media-paragraph{
     line-height: 1.5;
-    letter-spacing: 0,02em;
+    letter-spacing: 0.02em;
     color: #FFFFFF;;
     max-width: 96px;
     font-weight: 500;
@@ -556,7 +560,7 @@ background-color: #404BBF;
     background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
 }
 .footer-person-socials-link:hover,
