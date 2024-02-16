@@ -44,8 +44,6 @@ img {
 
 .container-header{
     display: flex;
-    margin: 0 auto;
-    padding: 0 15px;
     width: 1158px;
     align-items: center;
 
@@ -110,14 +108,18 @@ img {
     color: #404BBF;
 }
 
-.nav-link {
+.nav-link-current {
     color: #404bbf;
-    padding: 24px 0;
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    letter-spacing: 0.02em;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 500;
+        padding: 24px 0;
 }
 
-.nav-link::after{
+.nav-link-current::after{
     content: "";
     width: 100%;
     position: absolute;
@@ -130,12 +132,15 @@ img {
 }
 
 
-.header-nav .nav-link {
+.nav-link {
     color: #2E2F42;
     letter-spacing: 0.02em;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 500;
+    padding: 24px 0;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -175,7 +180,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -376,6 +381,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2,1);
 }
 .person-socials-link:hover,
 .person-socials-link:focus
@@ -432,7 +438,9 @@ background-color: #404BBF;
     
 }
 
-.portfolio-list-item:hover{
+.portfolio-list-item:hover,
+.paragraph-portfolio
+{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transform: translateY(0%);
 }
@@ -457,7 +465,7 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
 }
 
-.app-container{
+.app-image-container{
     padding: 32px 16px;
     border:1px solid #e7e9fc;
     border-top: none;
