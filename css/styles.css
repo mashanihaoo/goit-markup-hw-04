@@ -474,7 +474,12 @@ background-color: #404BBF;
     border-top: none;
     position: relative;
     overflow: hidden;
-    color: #f4f4fd;
+color: #f4f4fd;
+}
+
+.app-name-container{
+    height: 100%;
+    width: 100%;
 }
 
 .paragraph-portfolio{
