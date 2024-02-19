@@ -471,8 +471,6 @@ background-color: #404BBF;
 }
 
 .app-image-container{
-    border:1px solid #e7e9fc;
-    border-top: none;
     position: relative;
     overflow: hidden;
 color: #f4f4fd;
